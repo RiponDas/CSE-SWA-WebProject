@@ -1,0 +1,26 @@
+.navbar {
+	width: 30%;
+    margin: 0;
+	font-size:24px;
+    cellspadding: 5px;
+    background-color: #f1f1f1;
+}
+
+.navbar tr a {
+	border-bottom:2px solid #bbb;
+	box-sizing:border-box;
+	
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+	
+}
+
+/* Change the link color on hover */
+.navbar tr a:hover {
+    background-color: green;
+    color: white;
+}
+
+.main-body:after,.personality:after{content:"";display:table;clear:both}

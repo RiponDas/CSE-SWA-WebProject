@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<title>CSE</title>
+
+<link rel="stylesheet" href="index_style.css">
+<link rel="stylesheet" href="sidenav.css">
+<link rel="stylesheet" type="text/css" href="registration_style.css">
+
+<body>
+
+<header class="w3-container w3-teal">
+<table border="0" style="width:100%;">
+<tr>
+<td rowspan="3"><img  class="fevicon"src="LOGO.jpg" width="50" height="50" alt="LOGO"></td>
+<td rowspan="3" colspan="2"><h1>CSE Student Welfare Accociation</h1></td>
+<td class="td03"><input type="text" placeholder="Search"></td>
+</tr>
+<tr><td class="td03"></td></tr>
+<tr><td class="td03"></td></tr>
+</table>
+ 
+</header>
+<marquee><b>Welcome to Computer Science and Engineering Department.</b></marquee>
+<ul>
+<li class="icon"><abbr title="Menu"><button type="button" onclick="w3_open()"><img src="menu2.bmp" width="15" height="15" alt="..."></button></abbr></li>
+<li><a class="active" href="home.html">Home</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="registration.html">Registration</a></li>
+<li class="dropdown_hover"><a class="dropbtn" href="program.html">Program</a>
+<div class="dropdown_link">
+<a href="#">Membership</a>
+<a href="#">Active Commette</a>
+<a href="#">Advisor</a>
+</div>
+</li>
+<li><a href="About.html">About</a></li>
+</ul>
+
+<!--Sidenav-->
+<nav class="sidenav" style="display:none">
+ <table class="navbar" style="text-align:left;">
+ <tr><th style="text-align:right;"><button type="button" onclick="w3_close()">X</button></th></tr>
+  <tr><td><a href="#home">Journal</a></td></tr>
+  <tr><td><a href="#home">Programming</a></td></tr>
+  <tr><td><a href="#home">Big Project</a></td></tr>
+  <tr><td><a href="#home">Constitution</a></td></tr>
+  <tr><td><a href="#home">History</a></td></tr>
+  </table>
+</nav> 
+<!--Website Body-->
+<h1>Registration Form</h1>
+<form style="border:3px solid gray; text-align:center;">
+<p class="name">Full Name*</p>
+<input type="text" placeholder="Enter Fullname" name="username" required><br>
+<p class="name">Student ID*</p>
+<input type="text" placeholder="Enter Student ID" name="st_id" required><br>
+<p class="name">Session*</p>
+<input type="text" placeholder="Enter Session" name="session" required><br>
+<p class="name">Blood Group</p>
+<select>
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>O+</option>
+<option>O-</option>
+<option>AB+</option>
+<option>AB-</option>
+</select><br>
+<p class="name">E-mail*</p>
+<input type="text" placeholder="Enter E-mail" name="mail" required><br>
+<p class="name">Password*</p>
+<input type="text" placeholder="Enter new Password" name="password" required><br>
+<p class="name">Expert In</p>
+<input type="text" placeholder="Your Expertness" name="expert"><br>
+
+<p>Region</p>
+<select>
+<option>Barisal</option>
+<option>Dhaka</option>
+<option>Khulna</option>
+<option>Sylhet</option>
+<option>Rajshahi</option>
+<option>Chittagong</option>
+<option>Rangpur</option>
+<option>Mymensing</option>
+</select><br>
+<br>
+<input style="text-align:left;" type="checkbox">Accept all the terms and Conditons of the Association.</input><br><br>
+
+<button type="submit"><b>Sign Up</b></button>
+<br><br>
+</form>
+<br>
+<!--Footar-->
+<footer class="foot">
+  <h4>Follow Us</h4>
+  <p>&#169; Copyright CSE BU</p>			
+				
+</footer>
+
+<script>
+function w3_open() {
+    document.getElementsByClassName("sidenav")[0].style.display = "block";
+}
+function w3_close() {
+    document.getElementsByClassName("sidenav")[0].style.display = "none";
+} 
+</script>
+
+</body>
+</html> 

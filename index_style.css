@@ -1,0 +1,100 @@
+
+/*Design for Header*/
+header
+{
+	/*background-color:rgb(159, 179, 143);*/
+	background: red; /* For browsers that do not support gradients */
+    background: -moz-linear-gradient(red, green, red); /* For Firefox 3.6 to 15 */
+	color: white;
+	padding: 10px;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+}
+
+.fevicon
+{
+	text-align:left;
+	border-radius:50%;
+}
+
+.td03
+{
+	width:20%;
+	padding-left:100px;
+	padding-right:1px;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:right;
+}
+/*style for navigation bar...*/
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #c44dff;
+	}
+ li{
+	  
+	  width:18.5%;
+	  float: left;
+	  border-right:2px solid #bbb;
+	  box-sizing:border-box;
+	  float: left;
+  }
+	
+.icon
+{
+	width:7.5%;
+}
+li a, .dropbtn {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+li a:hover, .dropdown_hover:hover.dropbtn
+{
+	
+	background-color:rgb(84, 187, 75);
+	
+}
+li.dropdown_hover
+{
+	display:inline-block;
+}
+.dropdown_link
+{
+	display:none;
+	position:absolute;
+	background-color:#ccccff;
+	min-width:18.5%;
+	box-shadow: 6px 8px 16px 6px rgba(222,111,55,55,2);
+}
+
+.dropdown_link a
+{
+	color:white;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	text-align:left;
+}
+
+.dropdown_link a:hover
+{
+	background-color:#ff0066;
+}
+.dropdown_hover:hover .dropdown_link
+{
+	display:block;
+}
+.foot
+{
+	padding-top:20px;
+	background-color:gray;
+}
